@@ -46,7 +46,6 @@
     LC_TIME = "en_IN";
   };
    
- nix.settings.experimental-features = [ "nix-command" "flakes" ] ;
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
